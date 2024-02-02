@@ -1,7 +1,12 @@
 import React from 'react'
+import Navbar from "./Navbar";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
-export const Header = () => {
+const Header = () => {
   return (
-    <div>Header</div>
+    <Navbar />
   )
 }
+
+export default Header;

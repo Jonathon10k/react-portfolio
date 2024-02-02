@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Project = () => {
+const Project = () => {
   return (
-    <div>Project</div>
+    <div>This is a project card</div>
   )
 }
+
+export default Project;
