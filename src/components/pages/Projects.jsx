@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-import projectData from "./data";
+import projectData from "./assets/data/data";
 
 const Projects = () => {
   // Generate an array of Project components containing props passed from 'data' array

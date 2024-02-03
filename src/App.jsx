@@ -7,16 +7,14 @@ import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
-import Project from "./components/pages/Project";
 
 const App = () => {
   const [count, setCount] = useState(0);
   return (
     <Router>
-       <Header />
+       <Header title="Hi, I'm Jonathon" description="Welcome to my portfolio" imgSrc="./pages/assets/images/my-avatar.png" />
       <div className="container">
-       
-        <Routes>
+            <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
