@@ -12,16 +12,17 @@ import Project from "./components/pages/Project";
 const App = () => {
   const [count, setCount] = useState(0);
   return (
-    <>
-      <Router>
-        <Header />
+    <Router>
+       <Header />
+      <div className="container">
+       
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
-    </>
+      </div>
+    </Router>
   );
 };
 

@@ -1,7 +1,60 @@
 #root {
-  border: 1px solid 
-  black;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  border: 1px solid orange;
+  min-width: 100vw;
+}
+
+/** Custom values **/
+
+:root {
+  --nav-col-bg: rgb(88, 138, 170);
+  --header-col-bg: green;
+}
+
+/** Header **/
+
+.header {
+  margin-bottom: 5px;
+}
+
+.navbar {
+   background-color: var(--nav-col-bg);
+}
+
+/** Home section **/
+
+.jumbotron {
+  border-radius: 10px;
+  padding-top: 50px;
+  background-color: #55a6db;
+}
+
+h2 {
+ 
+}
+
+/** Project section **/
+
+.container {
+  border-radius: 20px;
+  margin-top: 0px;
+}
+
+/** Animations **/
+
+.fade-in {
+  animation: fade-in-slow 2s;
+}
+
+.fade-in-slow {
+  animation: fade-in-slow 4s;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fade-in-slow {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }

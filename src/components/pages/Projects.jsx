@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <>
       <h1>My Projects</h1>
-      <div className="row">{projects}</div>
+      <div className="row project-row">{projects}</div>
     </>
   );
 };
