@@ -17,7 +17,7 @@ const Header = (props) => {
       </div>
       <div className="row flex-col">
         <div className="col-sm-12 col-md-12 col-lg-6 ms-auto text-center mb-3">
-              <img src="src/components/my-avatar.png" width="200" className="img-fluid header-avatar"
+              <img src="src/components/pages/assets/images/my-avatar.png" width="200" className="img-fluid header-avatar"
             alt="An avatar of JG Edward" />
           </div>
       </div>
